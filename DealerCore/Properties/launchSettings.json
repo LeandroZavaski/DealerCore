@@ -1,0 +1,28 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:64489",
+      "sslPort": 44382
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:64489/#access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjAifQ.eyJlbWFpbCI6ImxlYW5kcm8uemF2YXNraUB2b2x2by5jb20iLCJ1c2VybmFtZSI6ImEzMDY0NjgiLCJleHAiOjE1NTQ0ODIwOTYsInNjb3BlIjpbXSwiY2xpZW50X2lkIjoiT1JETWRlYWxlcnJlcG9ydHMiLCJhdWQiOiJPUkRNZGVhbGVycmVwb3J0cyJ9.jvXK1gim_9BA0fjiWuwPuVgfJR-qM4jq_I76IeGtvsn7DgJ769RQ6Yd17nyTWdjGeOg3TVP_JH2VGMRMWCTDzXbf5hvC9svLpJxffs6xoQkL7a4yqbo5oTL45ST6bZQW32aUBepNnJyEnHLCzv0E1y_kSTNm6Y7mK7VvTumd6Q0dH3aYWDizLKCMveWI3k4htkxG9OFXQ2-bmhurNK916rvDejHo9Zu86KUaxkt9jO284hcs9JdMtZzH3hV0dO3QE0dW-D-TiN_RFt3xi5GES-wDullW0N6glldkCUyg6CgzcqercC07u2QdCg0Q5fgSWSu9Ub930EWXxCNDaSdfAg&token_type=Bearer&expires_in=7199",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "DealerCore": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
