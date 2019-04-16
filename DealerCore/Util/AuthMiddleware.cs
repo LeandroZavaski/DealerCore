@@ -14,7 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace DealerCore.Util
 {
-    public class AuthMiddleware : Controller
+    public class AuthMiddleware
     {
         private readonly RequestDelegate _next;
         private readonly IMemoryCache _cache;
